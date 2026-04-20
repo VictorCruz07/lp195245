@@ -4,7 +4,7 @@ Linguagem   : C
 Nome        : Victor Cruz de Farias
 Plataforma  : https://judge.beecrowd.com/pt/search
 Exercício   : 1000
-Data        : 14/04/2026
+Data        : 10/04/2026
 Objetivo    : Escrever Hello World
 Aprendizado : inicio da linguagem C
 -------------------------------------------------------------------------- */
