@@ -1,5 +1,13 @@
-#include <stdio.h>
-
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 195245
+Linguagem   : C
+Nome        : Victor Cruz de Farias
+Plataforma  : https://judge.beecrowd.com/pt/search
+Exercício   : 2758
+Data        : 11/04/2026
+Objetivo    : Manipular números com diferentes casas decimais
+Aprendizado : Utilização de %
+-------------------------------------------------------------------------- */
 int main()
 {
 	float ps1 , ps2;
