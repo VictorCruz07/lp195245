@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 195245
+Linguagem   : C
+Nome        : Victor Cruz de Farias
+Plataforma  : https://judge.beecrowd.com/pt/search
+Exercício   : 2757
+Data        : 11/04/2026
+Objetivo    : Exibir numeros com 10 casas ou zeros a direita
+Aprendizado : Utilizar preenchimento de casas
+-------------------------------------------------------------------------- */
 #include <stdio.h>
 
 int main()
