@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------------------
-Disciplina  : Lógica de Programação, turma IB, 195245
+Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
 Plataforma  : https://judge.beecrowd.com/pt/search
