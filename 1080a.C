@@ -12,7 +12,7 @@ Aprendizado : usar o IF
 
 int main() {
   int i,maior=0,posicao=0,valor;
-  for (i=1; i <= 100; i++){
+  for (i=0; i <= 100; i++){
     scanf ("%d", &valor);
     if (valor>maior) {
     maior = valor;
