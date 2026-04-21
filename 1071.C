@@ -4,7 +4,7 @@ Linguagem   : C
 Nome        : Victor Cruz de Farias
 Plataforma  : https://judge.beecrowd.com/pt/search
 Exercício   : 1000
-Data        : 10/04/2026
+Data        : 16/04/2026
 Objetivo    : Mostrar a soma entre 2 valores 
 Aprendizado : Usar repetições 
 -------------------------------------------------------------------------- */
