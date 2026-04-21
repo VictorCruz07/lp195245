@@ -3,7 +3,7 @@ Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
 Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1000
+Exercício   : 1071
 Data        : 16/04/2026
 Objetivo    : Mostrar a soma entre 2 valores 
 Aprendizado : Usar repetições 
