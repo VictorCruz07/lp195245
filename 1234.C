@@ -8,32 +8,28 @@ Data        : 28/04/2026
 Objetivo    : usar strings
 Aprendizado : inicio da linguagem C
 -------------------------------------------------------------------------- */
-using System;
+#include <stdio.h>
+#include <ctype.h>  
+#include <stdbool.h>
 
-class URI {
-    static void Main(string[] args) {
-        string linha;
+int main() {
+    char linha[1001];
+    while (fgets(linha, 1001, stdin) != NULL) {
+        bool deveSerMaiuscula = true;
 
-        while ((linha = Console.ReadLine()) != null) {
-            string resultado = "";
-            bool deveSerMaiuscula = true;
-
-            for (int i = 0; i < linha.Length; i++) {
-                char c = linha[i];
-
-                if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
-                    if (deveSerMaiuscula) {
-                        resultado += char.ToUpper(c);
-                    } else {
-                        resultado += char.ToLower(c);
-                    }
-                    deveSerMaiuscula = !deveSerMaiuscula;
+        for (int i = 0; linha[i] != '\0'; i++) {
+            if ((linha[i] >= 'a' && linha[i] <= 'z') || (linha[i] >= 'A' && linha[i] <= 'Z')) {
+                if (deveSerMaiuscula) {
+                    printf("%c", toupper(linha[i]));
                 } else {
-                    resultado += c;
+                    printf("%c", tolower(linha[i]));
                 }
+                deveSerMaiuscula = !deveSerMaiuscula;
+            } else {
+                printf("%c", linha[i]);
             }
-
-            Console.WriteLine(resultado);
         }
     }
+
+    return 0;
 }
