@@ -6,7 +6,7 @@ Plataforma  : https://judge.beecrowd.com/pt/search
 Exercício   : 1234
 Data        : 28/04/2026
 Objetivo    : usar strings
-Aprendizado : inicio da linguagem C
+Aprendizado : comandos básicos de strings
 -------------------------------------------------------------------------- */
 #include <stdio.h>
 #include <ctype.h>  
