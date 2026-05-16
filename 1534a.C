@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------------------
+Disciplina  : Lógica de Programação, turma IB, 2026S1
+Linguagem   : C
+Nome        : Victor Cruz de Farias
+Plataforma  : https://judge.beecrowd.com/pt/search
+Exercício   : 1534a
+Data        : 15/05/2026
+Objetivo    : imprimir matriz com um valor recebido
+Aprendizado : conhecimentos de matriz
+-------------------------------------------------------------------------- */
+#include <stdio.h>
+
+int main() {
+    int N, i, j;
+    char valores[3] = {'1', '2', '3'};
+
+    while (scanf("%d", &N) != EOF) {
+        for (i = 0; i < N; i++) {
+            for (j = 0; j < N; j++) {
+                if (j == N - 1 - i) {
+                    printf("%c", valores[1]);
+                } else if (i == j) {
+                    printf("%c", valores[0]);
+                } else {
+                    printf("%c", valores[2]);
+                }
+            }
+            printf("\n");
+        }
+    }
+
+    return 0;
+}
