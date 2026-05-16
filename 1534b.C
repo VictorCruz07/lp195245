@@ -3,9 +3,9 @@ Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
 Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1534
+Exercício   : 1534b
 Data        : 15/05/2026
-Objetivo    : imprimir matriz com um valor recebido
+Objetivo    : imprimir matriz com um valor recebido sem utilizar o operador []
 Aprendizado : conhecimentos de matriz
 -------------------------------------------------------------------------- */
 #include <stdio.h>
