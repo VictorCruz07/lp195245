@@ -10,14 +10,27 @@ Aprendizado : Usar recursos de strings e funções
 -------------------------------------------------------------------------- */
 #include <stdio.h>
 
-int obtener_leds(char digito) {
-    if (digito == '1') return 2;
-    if (digito == '2' || digito == '3' || digito == '5') return 5;
-    if (digito == '4') return 4;
-    if (digito == '6' || digito == '9' || digito == '0') return 6;
-    if (digito == '7') return 3;
-    if (digito == '8') return 7;
-    return 0;
+int obter_leds(char digito) {
+    switch (digito) {
+        case '1': 
+            return 2;
+        case '7': 
+            return 3;
+        case '4': 
+            return 4;
+        case '2': 
+        case '3': 
+        case '5': 
+            return 5;
+        case '6': 
+        case '9': 
+        case '0': 
+            return 6;
+        case '8': 
+            return 7;
+        default: 
+            return 0;
+    }
 }
 
 int main() {
@@ -33,7 +46,7 @@ int main() {
         
         int j = 0;
         while (numero[j] != '\0') {
-            total_leds += obtener_leds(numero[j]);
+            total_leds += obter_leds(numero[j]);
             j++;
         }
         
