@@ -9,13 +9,22 @@ Objetivo    : calcular gasto de combustível
 Aprendizado : operações básicas
 -------------------------------------------------------------------------- */
 #include <stdio.h>
-int main(){
-    int Vm, T, D;
+
+float calcularLitros(int tempo, int velocidade) {
+    int distancia = velocidade * tempo;
+    return (float)distancia / 12;
+}
+
+int main() {
+    int Vm, T;
     float L;
+
     scanf("%d", &T);
     scanf("%d", &Vm);
-    D=Vm*T;
-    L=(float)D/12;
+
+    L = calcularLitros(T, Vm);
+
     printf("%.3f\n", L);
+
     return 0;
 }
