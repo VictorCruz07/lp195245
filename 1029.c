@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1029
+Exercício   : https://judge.beecrowd.com/pt/problems/view/1029
 Data        : 13/06/2026
 Objetivo    : Fibonacci 
 Aprendizado : Básico de recursão
