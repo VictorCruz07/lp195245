@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 2758
+Exercício   : https://judge.beecrowd.com/pt/problems/view/2758
 Data        : 11/04/2026
 Objetivo    : Manipular números com diferentes casas decimais
 Aprendizado : Utilização de %
