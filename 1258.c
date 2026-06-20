@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1258
+Exercício   : https://judge.beecrowd.com/pt/problems/view/1258
 Data        : 26/05/2026
 Objetivo    : Organizar camisetas
 Aprendizado : Conhecimentos e manipulação de strings
