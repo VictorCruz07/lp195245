@@ -10,19 +10,25 @@ Aprendizado : Usar repetições
 #include <stdio.h>
 
 int main() {
-  int X,Y,Maior,Menor,Soma=0 ;
-  scanf("%d %d" , &X , &Y);
-  if (X>Y) {
-    Maior=X;
-    Menor=Y;
-    printf ("Maior=%d \nMenor=%d", Maior, Menor);
-  }
-    else{
-        Maior=Y;
-        Menor=X;
-    printf ("Maior=%d \nMenor=%d\n", Maior, Menor);
+    int X, Y, Maior, Menor, Soma = 0;
+    
+    if (scanf("%d %d", &X, &Y) != 2) return 0;
+    
+    if (X > Y) {
+        Maior = X;
+        Menor = Y;
+    } else {
+        Maior = Y;
+        Menor = X;
     }   
-    Soma =Maior+Menor;
-    printf ("Soma=%d", Soma);
-return 0;
+    
+    for (int i = Menor + 1; i < Maior; i++) {
+        if (i % 2 != 0) {
+            Soma += i;
+        }
+    }
+    
+    printf("%d\n", Soma);
+    
+    return 0;
 }
