@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1168
+Exercício   : https://judge.beecrowd.com/pt/problems/view/1168
 Data        : 22/05/2026
 Objetivo    : Contagem de Leds
 Aprendizado : Usar recursos de strings e funções 
