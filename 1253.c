@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1253
+Exercício   : https://judge.beecrowd.com/pt/problems/view/1253
 Data        : 28/04/2026
 Objetivo    : usar strings
 Aprendizado : comandos de strings
