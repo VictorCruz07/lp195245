@@ -2,8 +2,7 @@
 Disciplina  : Lógica de Programação, turma IB, 2026S1
 Linguagem   : C
 Nome        : Victor Cruz de Farias
-Plataforma  : https://judge.beecrowd.com/pt/search
-Exercício   : 1015
+Exercício   : https://judge.beecrowd.com/pt/problems/view/1015
 Data        : 14/05/2026
 Objetivo    : Calcular a distancia entre dois ponts em um plano cartesiano XY
 Aprendizado : Usar raiz quadrada e elevar um valor ao quadrado com uma nova biblioteca 
